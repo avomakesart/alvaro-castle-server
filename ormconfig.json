@@ -1,0 +1,10 @@
+{
+    "type": "postgres",
+    "host": "localhost",
+    "port": 5432,
+    "username": "postgres",
+    "password": "secret",
+    "database": "profattendance",
+    "enteties": ["dist/entities/*.js*"],
+    "migrations": ["dist/migrations/*.js*"]
+}
